@@ -19,3 +19,7 @@ Zaman (time)
 
 Veriye makina öğrenmesi algoritmaları iki aşamada uygulanarak sonuçlar elde edilmiştir. 
 İlk aşamada tüm parametrelerle eleme yapılmaksızın modeller eğitilmiş ikinci aşamada ise lojistik regresyon çıktısı incelenerek anlamsız parametereler veri setinden çıkarılıp modeller eğitilmiştir. Aynı zamanda ilk aşama uygulanırken parametrelere standart scaler işlemi uygulanmış en iyi sonuç alınacak şekilde düzenlemeler yapılmıştır.
+
+Her iki aşamaya uygulanan algoritmalar sonucunda en yüksek accuracy score SVC algoritmasıyla 79.7980% olarak bulunmuştur.
+En iyi ikinci accuracy score ise Random Forest algoritması ile 76.7677% bulunmuştur.
+
